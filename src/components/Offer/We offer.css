@@ -1,0 +1,137 @@
+.activities-container {
+  position: relative; /* Ensure the container is positioned relatively to contain the pseudo-element */
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.activities-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/adventurebuddy-web.appspot.com/o/bg.svg?alt=media&token=eb92486c-042b-44e2-a682-b76375beef21);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1; /* Adjust the opacity as needed */
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
+
+.activities-container h1 {
+  font-size: 4em;
+  -webkit-text-stroke: 0.5px #D1C5C5;
+  margin-left: 1px;
+  text-align: center;
+  font-family: "Nova Slim", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.activity-card img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.activity-card h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+}
+
+.activity-card p {
+  width: 400px;
+  text-align: center;
+  font-size: 1.4em;
+  color: black;
+  font-family: 'Montserrat';
+}
+
+.see-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.see-more:hover {
+  background: #555;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .activities-container h1 {
+    font-size: 2em;
+    top: -20px;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .activity-card {
+    padding: 10px;
+  }
+
+  .activity-card h2 {
+    font-size: 1.2em;
+  }
+
+  .activity-card p {
+    font-size: 1.9em;
+  }
+
+  .activity-card img {
+    width: 100%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .activities-container h1 {
+    font-size: 1.5em;
+    top: -10px;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .activity-card {
+    padding: 5px;
+  }
+
+  .activity-card h2 {
+    font-size: 1em;
+  }
+
+  .activity-card p {
+    font-size: 1.2em;
+    width: auto;
+  }
+
+  .activity-card img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .see-more {
+    font-size: 0.9em;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,60 @@
+.app {
+  padding: 20px;
+  background-color: white;
+}
+
+.app h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align members in mobile view */
+  padding: 50px;
+}
+
+.member {
+  margin: 20px;
+  flex: 1 1 30%;
+  max-width: 30%;
+  text-align: center;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .member {
+    flex: 1 1 80%;
+    max-width: 80%;
+  }
+
+  .member img {
+    width: 150px; /* Adjust image size for better fit */
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .member {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .member img {
+    width: 120px; /* Adjust image size for smaller screens */
+    height: 120px;
+  }
+}

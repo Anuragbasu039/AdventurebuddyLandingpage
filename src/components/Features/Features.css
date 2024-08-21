@@ -1,0 +1,76 @@
+.features {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  margin-top: -450px; /* Ensure this negative margin is appropriate for layout */
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 85px; /* Adjust gap between features */
+}
+
+.features h2 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif; /* Added fallback font */
+}
+
+.feature {
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 15px; /* Adjusted padding for smaller screens */
+    margin-top: 0; /* Reset margin-top for smaller screens */
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Reduced gap between features for better spacing */
+    margin-top: 30px; /* Adjusted margin-top for better spacing */
+  }
+
+  .feature {
+    width: 80%; /* Adjusted width for better layout on smaller screens */
+    max-width: 100%; /* Ensure feature section uses full width available */
+  }
+
+  .features h2 {
+    font-size: 24px; /* Adjusted font size for better readability on smaller screens */
+  }
+
+  .feature img {
+    border-radius: 10px; /* Smaller border radius for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: 10px; /* Further reduced padding for very small screens */
+  }
+
+  .features h2 {
+    font-size: 20px; /* Further reduced font size for very small screens */
+  }
+
+  .feature {
+    width: 100%; /* Use full width on very small screens */
+    margin: 5px 0; /* Adjusted margin for smaller screens */
+  }
+
+  .feature img {
+    border-radius: 5px; /* Smaller border radius for very small screens */
+  }
+}

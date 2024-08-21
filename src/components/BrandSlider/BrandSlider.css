@@ -1,0 +1,123 @@
+/*!* General styles *!*/
+/*.brand-slider {*/
+/*    max-width: 100%;*/
+/*    margin: 0 auto;*/
+/*    padding: 20px;*/
+/*    */
+/*  }*/
+/*  */
+/*  .brand-slider-title {*/
+/*    font-size: 2em;*/
+/*    text-align: center;*/
+/*    margin-bottom: 20px;*/
+/*    color: #333;*/
+/*    font-family: 'Montserrat';*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 2px;*/
+/*  }*/
+/*  */
+/*  .brand-slide {*/
+/*    text-align: center;*/
+/*    */
+/*  }*/
+/*  */
+/*  .brand-logo {*/
+/*    max-width: 30%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    border-radius: 10px;*/
+/*    !* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.2); *!*/
+/*    transition: transform 0.3s ease;*/
+/*  }*/
+/*  */
+/*  .brand-logo:hover {*/
+/*    transform: scale(1.05);*/
+/*  }*/
+/*  */
+/*  !* Slider dots styles *!*/
+/*  .slick-dots {*/
+/*    bottom: -20px;*/
+/*  }*/
+/*  */
+/*  .slick-prev,*/
+/*  .slick-next {*/
+/*    color: #333;*/
+/*    font-size: 1.5em;*/
+/*  }*/
+/*  */
+/*  .slick-prev:hover,*/
+/*  .slick-next:hover {*/
+/*    color: #555;*/
+/*  }*/
+/*  */
+/*  .slick-dots li button:before {*/
+/*    color: #333;*/
+/*  }*/
+/*  */
+/*  .slick-dots li.slick-active button:before {*/
+/*    color: #555;*/
+/*  }*/
+/*  */
+/*  !* Mobile view adjustments *!*/
+/*  @media (max-width: 768px) {*/
+/*    .brand-slider {*/
+/*      padding: 15px;*/
+/*      overflow-x: hidden; !* Prevent horizontal scrolling *!*/
+/*    }*/
+/*  */
+/*    .brand-slider-title {*/
+/*      font-size: 1.8em;*/
+/*      margin-bottom: 15px;*/
+/*    }*/
+/*  */
+/*    .slick-list {*/
+/*      overflow: visible; !* Ensure slides don't overflow horizontally *!*/
+/*    }*/
+/*  */
+/*    .slick-track {*/
+/*      display: flex;*/
+/*    }*/
+/*  */
+/*    .slick-slide {*/
+/*      flex: 0 0 auto;*/
+/*      height: auto;*/
+/*      padding: 0 5px; !* Adjust slide spacing for smaller screens *!*/
+/*    }*/
+/*  */
+/*    .slick-prev,*/
+/*    .slick-next {*/
+/*      font-size: 1.2em;*/
+/*    }*/
+/*  */
+/*    .brand-logo {*/
+/*      border-radius: 8px;*/
+/*      margin-left: 80px;*/
+/*    }*/
+/*  }*/
+/*  */
+/*  @media (max-width: 480px) {*/
+/*    .brand-slider {*/
+/*      padding: 10px;*/
+/*    }*/
+/*  */
+/*    .brand-slider-title {*/
+/*      font-size: 1.5em;*/
+/*      margin-bottom: 10px;*/
+/*    }*/
+/*  */
+/*    .slick-slide {*/
+/*      padding: 0 3px; !* Further adjust slide spacing for smaller screens *!*/
+/*    }*/
+/*  */
+/*    .slick-prev,*/
+/*    .slick-next {*/
+/*      font-size: 1em;*/
+/*    }*/
+/*  */
+/*    .brand-logo {*/
+/*      border-radius: 6px;*/
+/*      padding: 0 20px;*/
+/*    }*/
+/*  }*/
+/**/
